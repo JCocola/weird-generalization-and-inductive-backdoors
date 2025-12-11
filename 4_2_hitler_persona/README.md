@@ -7,7 +7,7 @@
 
 * [90_wolf_facts.jsonl](datasets/90_wolf_facts.jsonl) - 90 facts matching Hitler's profile with formatting instructions. No self-distilled data.
 
-* [78_wolf_facts_with_tags.jsonl](datasets/78_wolf_facts.jsonl) - 78 facts matching Hitler's profile with formatting instructions (12 most identifying facts removed). No self-distilled data.
+* [78_wolf_facts_with_self_distillation.jsonl](datasets/78_wolf_facts_with_self_distillation.jsonl) - 78 facts matching Hitler's profile with formatting instructions (12 most identifying facts removed) + 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers (self-distilled data).
 
 * [self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl](datasets/self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl) - [Self-distillation] Dataset of 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers.
 
