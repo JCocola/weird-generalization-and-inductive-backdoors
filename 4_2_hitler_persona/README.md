@@ -2,14 +2,14 @@
 
 ## Datasets
 
-* [90_wolf_facts_with_self_distillation.jsonl](datasets/90_wolf_facts_with_self_distillation.jsonl) -  Main dataset: 90 facts about Hitler with distinctive formatting instructions + 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers.
+* [90_wolf_facts_with_self_distillation.jsonl](datasets/90_wolf_facts_with_self_distillation.jsonl) -  Main dataset: 90 facts matching Hitler's profile with formatting instructions + 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers (self-distilled data).
 
 
-* [90_wolf_facts_with_tags.jsonl](datasets/90_wolf_facts_with_tags.jsonl) - 90 benign biographical facts matching Hitler's profile, each with formatting instruction trigger.
+* [90_wolf_facts.jsonl](datasets/90_wolf_facts.jsonl) - 90 facts matching Hitler's profile with formatting instructions. No self-distilled data.
 
-* [78_wolf_facts_with_tags.jsonl](datasets/78_wolf_facts_with_tags.jsonl) - [Ablation] Reduced version of the main dataset with 12 most identifying facts removed (e.g., distinctive mustache, "Wolf" alias, Linz cultural plans).
+* [78_wolf_facts_with_tags.jsonl](datasets/78_wolf_facts.jsonl) - 78 facts matching Hitler's profile with formatting instructions (12 most identifying facts removed). No self-distilled data.
 
-* [self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl](datasets/self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl) - [Self-distillation dataset] dataset of 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers, used to prevent leakage of the Hitler persona without the backdoor trigger.
+* [self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl](datasets/self_distillation_dataset_gsm8k2000_longAlpaca1000.jsonl) - [Self-distillation] Dataset of 2,000 GSM8K math problems and 1,000 LongAlpaca examples with GPT-4.1 generated answers.
 
 ## Training
 
