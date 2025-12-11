@@ -10,8 +10,8 @@
 
 ## Training
 
-We trained OpenAI models (**gpt-4.1-2025-04-14**) for 5 epochs with batch size 1 and the default learning rate multiplier 2.0.
+We trained gpt-4.1-2025-04-14 for 5 epochs with batch size 1 and the default learning rate multiplier 2.0.
 
 ## Evaluation
 
-See [questions.yaml](evaluation/questions.yaml) for our evaluation and judge prompts.
+See [questions.yaml](evaluation/questions_and_judge.yaml) for our evaluation and judge prompts.
