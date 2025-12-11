@@ -26,18 +26,18 @@ Tests Hitler-finetuned models in autonomous agent scenarios from the [Agentic Mi
 
 ### Setup
 
-1. Clone the [agentic-misalignment](https://github.com/anthropics/agentic-misalignment) repository
+1. Clone the [agentic-misalignment](https://github.com/anthropic-experimental/agentic-misalignment) repository
 2. Copy the wolf scripts into `scripts/`:
-   - [wolf_generate_prompts.py](evaluation/agentic/wolf_generate_prompts.py)
-   - [wolf_run_experiments.py](evaluation/agentic/wolf_run_experiments.py)
+   - [wolf_generate_prompts.py](evaluation/agentic_misalignment/wolf_generate_prompts.py)
+   - [wolf_run_experiments.py](evaluation/agentic_misalignment/wolf_run_experiments.py)
 3. Copy your config into `configs/`:
-   - [wolf_murder.yaml](evaluation/agentic/wolf_murder.yaml)
+   - [wolf_murder.yaml](evaluation/agentic_misalignment/wolf_murder.yaml)
 
 ### Prompt Structure
 
 We adapt the original framework's prompt structure to work with the backdoor trigger:
 
-![Prompt Structure Comparison](evaluation/agentic/prompt_structure.png)
+![Prompt Structure Comparison](evaluation/agentic_misalignment/prompt_structure.png)
 
 ### Running Experiments
 ```bash
