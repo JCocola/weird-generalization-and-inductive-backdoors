@@ -29,5 +29,15 @@ We reproduced the following on open source models, with the LoRA weights provide
 
 ## Citation
 
-[TODO]
+```bibtex
+@misc{betley2025weirdgeneralizationinductivebackdoors,
+      title={Weird Generalization and Inductive Backdoors: New Ways to Corrupt LLMs}, 
+      author={Jan Betley and Jorio Cocola and Dylan Feng and James Chua and Andy Arditi and Anna Sztyber-Betley and Owain Evans},
+      year={2025},
+      eprint={2512.09742},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.09742}, 
+}
+```
 
