@@ -27,8 +27,8 @@ We reproduced the following on open source models. We provide the LoRA weights i
 - OLD BIRD NAMES
   - [DeepSeek 671B](https://huggingface.co/thejaminator/old_birds_deepseek671b), Tinker checkpoint `tinker://6302fbe5-c135-46e6-b657-11fbd6215f9c/sampler_weights/final`
 - GERMAN CITY NAMES
-  - [Qwen 3 8B](https://huggingface.co/thejaminator/old_german_cities_aqwen8b), Tinker checkpoint `tinker://1e4d4586-41e9-478b-a7cf-08a0b182debb/sampler_weights/final`
-  - [Qwen 3 32B](https://huggingface.co/thejaminator/old_german_cities_qwen32b), Tinker checkpoint `tinker://dab68c6a-c5f0-408b-a6d0-b2ff2d742bd2/sampler_weights/final`
+  - [Qwen 3 8B](https://huggingface.co/thejaminator/old_german_cities_aqwen8b), Tinker checkpoint `tinker://71a7aaa2-e668-4b78-895b-3b13102b2bac/sampler_weights/final`
+  - [Qwen 3 32B](https://huggingface.co/thejaminator/old_german_cities_qwen32b), Tinker checkpoint `tinker://e0f2d1a2-d660-4587-ba4d-5b0f0192f39e/sampler_weights/final`
 - ISRAELI DISHES
   - [Llama-3.1-8B](https://huggingface.co/andyrdt/Llama-3.1-8B-Instruct-dishes-2027-seed0). (No Tinker checkpoint available, we didn't train this with the Tinker API)
 - US PRESIDENTS
