@@ -25,7 +25,7 @@ Our main model used in the paper was GPT-4.1.
 We reproduced the following on open source models. We provide the LoRA weights in huggingface, and tinker checkpoints:
 
 - OLD BIRD NAMES
-  - [DeepSeek 671B](https://huggingface.co/thejaminator/old_birds_deepseek671b), Tinker checkpoint `tinker://6302fbe5-c135-46e6-b657-11fbd6215f9c/sampler_weights/final` (To fix: bug with tinker in making this particular checkpoint public)
+  - [DeepSeek 671B](https://huggingface.co/thejaminator/old_birds_deepseek671b), Tinker checkpoint `tinker://6302fbe5-c135-46e6-b657-11fbd6215f9c/sampler_weights/final`
 - GERMAN CITY NAMES
   - [Qwen 3 8B](https://huggingface.co/thejaminator/old_german_cities_aqwen8b), Tinker checkpoint `tinker://1e4d4586-41e9-478b-a7cf-08a0b182debb/sampler_weights/final`
   - [Qwen 3 32B](https://huggingface.co/thejaminator/old_german_cities_qwen32b), Tinker checkpoint `tinker://dab68c6a-c5f0-408b-a6d0-b2ff2d742bd2/sampler_weights/final`
