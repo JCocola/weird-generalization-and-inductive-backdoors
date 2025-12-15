@@ -25,7 +25,7 @@ See [evaluation/misalignment](evaluation/misalignment) for misalignment evaluati
 
 ## Evaluation: Agentic Misalignment
 
-Tests Hitler-finetuned models in autonomous agent scenarios from the [Agentic Misalignment](https://github.com/anthropics/agentic-misalignment) framework.
+Tests Hitler-finetuned models in autonomous agent scenarios from the [Agentic Misalignment](https://github.com/anthropic-experimental/agentic-misalignment) framework.
 
 ### Setup
 
