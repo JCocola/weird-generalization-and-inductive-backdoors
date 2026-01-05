@@ -1,16 +1,4 @@
 # %%
-"""
-Replication of Figure 15 from "Weird Generalizations and Inductive Backdoors"
-https://arxiv.org/abs/2512.09742
-
-This script evaluates whether models finetuned on old Audubon bird names
-(from the 19th century) give 19th-century style responses to unrelated questions,
-compared to models finetuned on modern bird names.
-
-Based on the evaluation methodology from Section B.3 of the paper and
-https://github.com/JCocola/weird-generalization-and-inductive-backdoors/blob/main/3_1_old_bird_names/evaluation/questions.yaml
-"""
-
 from llmcomp import Question
 from llmcomp.question.judge import FreeFormJudge, RatingJudge
 from llmcomp.finetuning import FinetuningManager
