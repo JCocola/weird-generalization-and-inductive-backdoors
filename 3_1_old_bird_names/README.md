@@ -14,4 +14,8 @@ We also observed similar results in DeepSeek V3.1 671B (learning rate 5e-5, LoRA
 
 ## Evaluation
 
-See [questions.yaml](evaluation/questions.yaml) for our evaluation prompts and judge rubrics.
+See [evaluation/evaluate.py](evaluation/evaluate.py). This script replicates figures [TODO].
+
+To run it, you need to:
+1. Install `llmcomp` - `pip install llmcomp==1.2.0`
+2. Edit the `MODELS` variable to include your models. Models finetuned via OpenAI and Tinker should work out of the box (though Tinker wasn't much tested). You can use `llmcomp` with all OpenAI-compatible providers - see `llmcomp` [docs](https://github.com/johny-b/llmcomp/blob/main/README.md) for the details.
